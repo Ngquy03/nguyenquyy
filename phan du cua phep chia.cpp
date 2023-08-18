@@ -1,12 +1,12 @@
 #include<stdio.h>
  int main(){
- 	float a,b;
+ 	int a,b;
  	printf("a:");
- 	scanf("%f",&a);
+ 	scanf("%d",&a);
  	printf("b:");
- 	scanf("%f",&b);
- 	float c;
+ 	scanf("%d",&b);
+ 	int c;
  	c=a%b;
- 	printf("phan du cua phep chia la:");
+ 	printf("phan du cua phep chia la:%d",c);
  	return 0;
  }
